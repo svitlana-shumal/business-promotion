@@ -152,6 +152,54 @@ button {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #02897a;
+  background-color: #fff;
   width: 164px;
   height: 23px;
 }
+.product {
+}
+.container {
+}
+.product-container {
+     align-items: center;
+  justify-content: center;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  width: 539px;
+}
+.wrap {
+}
+.product-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.product-list-item {
+}
+.product-item-title {
+font-weight: 600;
+font-size: 22px;
+color: #22343d;
+    margin-bottom: 13px;
+}
+.product-descr {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+color: #22343d;
+}
+.product-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  margin-bottom: 50px;
+

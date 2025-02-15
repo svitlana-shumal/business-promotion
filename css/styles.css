@@ -103,3 +103,55 @@ button {
   height: 42px;
   color: #fff;
 }
+.hero {
+  padding: 25px 0 50px;
+}
+.hero-container {
+  display: flex;
+  gap: 35px;
+}
+.wrapper {
+  padding: 112px 0;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  max-width: 415px;
+  /* line-height: 60px; */
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+}
+.hero-title-descr {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.hero-list-btn {
+  align-items: center;
+  display: flex;
+  margin-top: 45px;
+}
+.hero-list-item {
+}
+.hero-btn-get {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+  margin-right: 30px;
+}
+.hero-btn-watch {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  width: 164px;
+  height: 23px;
+}

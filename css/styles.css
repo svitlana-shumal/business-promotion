@@ -161,8 +161,6 @@ button {
 .container {
 }
 .product-container {
-     align-items: center;
-  justify-content: center;
 }
 .product-title {
   font-weight: 700;
@@ -182,16 +180,16 @@ button {
 .product-list-item {
 }
 .product-item-title {
-font-weight: 600;
-font-size: 22px;
-color: #22343d;
-    margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-bottom: 13px;
 }
 .product-descr {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.62;
-color: #22343d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
 }
 .product-btn {
   font-weight: 700;
@@ -202,4 +200,4 @@ color: #22343d;
   width: 175px;
   height: 53px;
   margin-bottom: 50px;
-
+}

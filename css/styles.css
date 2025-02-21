@@ -253,7 +253,7 @@ button {
 .mana-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 30px;
   max-width: 486px;
@@ -268,14 +268,14 @@ button {
 .mana-item-title {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 12px;
 }
 .mana-item-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 25px;
   max-width: 486px;
@@ -311,7 +311,7 @@ button {
 .supp-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -323,7 +323,7 @@ button {
 .item-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 25px;
 }
@@ -358,7 +358,7 @@ button {
 .collab-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -370,14 +370,14 @@ button {
 .item-title {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 12px;
 }
 .collab-descr-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   margin-bottom: 25px;
 }
@@ -402,7 +402,7 @@ button {
 .process-descr {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   max-width: 542px;
   text-align: center;
@@ -470,7 +470,7 @@ button {
 .strateg-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   color: #22343d;
   width: 465px;
   margin-bottom: 40px;
@@ -506,7 +506,7 @@ button {
 .strateg-item-text {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.66;
   color: #22343d;
   margin-right: 27px;
   margin-bottom: 40px;
@@ -515,7 +515,7 @@ button {
 .strateg-item-text-two {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.66;
   color: #02897a;
   margin-right: 27px;
   margin-bottom: 40px;
@@ -523,6 +523,207 @@ button {
 }
 /* #endregion strateg */
 /* #region price */
+.price {
+}
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.price-descr {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.price-list {
+  display: flex;
+  gap: 72px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.price-list:last-child {
+  margin-right: 0;
+}
+.price-item {
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  margin: 0 auto;
+}
+.price-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #22343d;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.price-item-descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.cont-price {
+  display: flex;
+  margin-bottom: 16px;
+  margin-left: 83px;
+  margin-right: 82px;
+}
+.cont-price-descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+.cont-one {
+  display: block;
+}
+.cont-descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-top: 24px;
+  margin-left: 7px;
+  margin-bottom: 4px;
+}
+.cont-descr-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  margin-left: 7px;
+}
+.price-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn-price {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  margin-left: 92px;
+}
+.price-item-two {
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #02897a;
+}
+.item-title-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #fff;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.item-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #fff;
+  text-align: center;
+}
+.cont-price-two {
+  display: flex;
+  margin-bottom: 16px;
+  margin-left: 83px;
+  margin-right: 82px;
+  margin-top: 16px;
+}
+.cont-price-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.cont-two {
+  display: block;
+}
+.cont-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-top: 24px;
+  margin-left: 7px;
+  margin-bottom: 4px;
+}
+.cont-descr-price-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-left: 7px;
+}
+.price-text-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn-price-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  margin-left: 92px;
+}
 /* #endregion price */
 /* #region coment */
 .coment {
@@ -607,3 +808,51 @@ button {
   margin-left: 14px;
 }
 /* #endregion coment */
+/* #region join */
+.join {
+}
+.container.joins {
+  border-radius: 32px;
+  width: 968px;
+  height: 345px;
+  background: #02897a;
+  display: flex;
+}
+.cont-join {
+  display: block;
+}
+.joins-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  align-items: center;
+  max-width: 510px;
+  margin-top: 49px;
+  margin-bottom: 46px;
+  margin-right: 10px;
+  margin-left: 51px;
+}
+.btn-joins {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  margin-left: 51px;
+  margin-bottom: 56px;
+}
+.joins-photo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 351px;
+  height: 331px;
+}
+/* #endregion join */
+/* #region footer */
+/* #endregion footer */

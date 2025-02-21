@@ -405,6 +405,7 @@ button {
   line-height: 1.625;
   color: #22343d;
   max-width: 542px;
+  text-align: center;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -529,23 +530,80 @@ button {
 .container {
 }
 .coment-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  margin: 0 auto;
+  text-align: center;
 }
 .coment-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  margin: 0 auto;
+  width: 537px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 .coment-list {
 }
 .cont-coment {
+  display: flex;
+  margin-bottom: 100px;
 }
 .coment-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 16px 26px;
+  width: 327px;
+  height: 240px;
+  background: #fff;
+  margin-right: 64px;
+}
+.coment-item:last-child {
+  margin-right: 0;
 }
 .coment-star {
+  margin-bottom: 16px;
 }
 .coment-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 .coment-photo {
 }
 .comment-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
 }
 .coment-item-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+.comentar {
+  display: flex;
+  width: 145px;
+  height: 50px;
+  margin-bottom: 28px;
+}
+.comentar-text {
+  display: block;
+  margin-left: 14px;
 }
 /* #endregion coment */

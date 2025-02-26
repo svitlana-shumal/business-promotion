@@ -954,52 +954,7 @@ button {
 /* #endregion footer */
 
 /* customers.html*/
-body {
-  font-family: "Poppins", sans-serif;
-}
 
-/* #region  */
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-button {
-  display: block;
-  cursor: pointer;
-  border: none;
-}
-
-/* #endregion */
-
-.header {
-}
-.container {
-  width: 1150px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 /* #region clients */
 .clients {
 }
@@ -1241,3 +1196,67 @@ button {
   margin-bottom: 63px;
 }
 /* #region enterprice */
+.pricing {
+}
+.pricing-text {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 32px;
+}
+.pricing-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.pricing-descr {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 49px;
+}
+/* #region enterprise */
+.enters {
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+  width: 1399px;
+  height: 318px;
+}
+.enter-text-enter {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-top: 53px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.enter-title-enter {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.enter-descr-enter {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  text-align: center;
+}
+.enter-btn-enter {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 51px;
+}

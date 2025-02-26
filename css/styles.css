@@ -1220,7 +1220,7 @@ button {
   color: #22343d;
   margin-bottom: 49px;
 }
-/* #region enterprise */
+/* #region enter */
 .enters {
   background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
   width: 1399px;
@@ -1260,3 +1260,92 @@ button {
   margin-top: 32px;
   margin-bottom: 51px;
 }
+/* #endregion enter */
+/* #region efects */
+.container .efects {
+  margin-bottom: 6px;
+}
+.efects-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin: 0 auto;
+  text-align: center;
+}
+.cont-efect {
+  display: flex;
+  margin-top: 56px;
+}
+.efects-img {
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.efects-list {
+  width: 543px;
+  height: 430px;
+  margin-left: 60px;
+}
+.efects-item {
+  width: 541px;
+  height: 122px;
+  margin-bottom: 32px;
+}
+
+.efects-item:last-child {
+  width: 506px;
+  height: 122px;
+  margin-bottom: 6px;
+}
+.efects-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+}
+.efects-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 8px;
+}
+.efects-item-descr:last-child {
+  margin-bottom: 6px;
+}
+/* #endregion efects */
+/* #region frequently */
+.container .frequ {
+  padding-bottom: 150px;
+}
+.frequently-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+}
+.frequently-descr {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  margin-top: 8px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.frequently-list {
+  width: 920px;
+}
+.frequently-item {
+}
+.frequently-item-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #22343d;
+}
+.frequently-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
+}
+/* #endregion frequently */

@@ -160,10 +160,14 @@ button {
   text-decoration-skip-ink: none;
   color: #02897a;
   background-color: #fff;
-  width: 164px;
+  min-width: 164px;
   height: 23px;
 }
-
+.hero-btn-svg {
+  border-radius: 2px;
+  fill: #02897a;
+  margin-right: 8px;
+}
 /* #endregion hero */
 
 /* #region product */
@@ -1332,6 +1336,8 @@ button {
   margin-top: 8px;
   text-align: center;
   margin-bottom: 50px;
+}
+.cont-frequ {
 }
 .frequently-list {
   width: 920px;

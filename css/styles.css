@@ -881,6 +881,7 @@ button {
   /* line-height: 28px; */
   line-height: 0.93;
   color: #173a56;
+  align-items: center;
 }
 .cont-footer {
 }

@@ -896,11 +896,14 @@ button {
 .cont-icon {
 }
 .cont-icon-list {
+  width: 152px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 16px;
+  border-radius: 100%;
+  fill: #edfffc;
 }
 .icons-link {
 }
@@ -911,8 +914,8 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  fill: #edfffc;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #edfffc;
+  margin-top: 18px;
 }
 .social-link-svg {
   stroke-width: 2px;

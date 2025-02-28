@@ -743,8 +743,6 @@ button {
 /* #region coment */
 .coment {
 }
-.container {
-}
 .coment-title {
   font-weight: 700;
   font-size: 32px;
@@ -767,8 +765,6 @@ button {
   margin-top: 10px;
 }
 .coment-list {
-}
-.cont-coment {
   display: flex;
   margin-bottom: 100px;
 }
@@ -1025,8 +1021,6 @@ button {
   margin-bottom: 50px;
 }
 .clients-list {
-}
-.clients-cont {
   margin-bottom: 117px;
   display: flex;
   align-items: center;
@@ -1054,12 +1048,11 @@ button {
   margin-bottom: 50px;
   margin-top: 24px;
 }
-.busines-list {
-  width: 350px;
-  height: 305px;
-}
-.cont-busines {
+.cont-busines .busines-list {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .busines-item {
   border: 1px solid #dedede;
@@ -1073,17 +1066,29 @@ button {
 .busines-item:last-child {
   margin-right: 0;
 }
+.busines-icon {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.busines-icons-item {
+}
 .busines-item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.375;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: justify;
+  width: 294px;
   color: #22343d;
   margin: 0 auto;
   margin-bottom: 16px;
-  justify-content: center;
-  width: 294px;
 }
 .busines-item-text {
   font-weight: 400;
@@ -1098,8 +1103,7 @@ button {
 /* #region apply */
 .apply {
 }
-.app.container {
-  width: 1400px;
+.app {
 }
 .apply-title {
   font-weight: 700;
@@ -1111,8 +1115,6 @@ button {
   margin-bottom: 73px;
 }
 .apply-list {
-}
-.cont-apply {
   width: 1027px;
   height: 279px;
   margin-bottom: 100px;
@@ -1126,7 +1128,9 @@ button {
   width: 407px;
   height: 274px;
   background: #000;
-  margin-left: 187px;
+  display: flex; /* Використовуємо Flexbox */
+  justify-content: center; /* Центрування по горизонталі */
+  align-items: center; /* Центрування по вертикалі */
 }
 .apply-cont {
   display: block;
@@ -1161,7 +1165,6 @@ button {
   display: block;
   width: 438px;
   height: 210px;
-  margin-left: 190px;
   margin-top: 49px;
   margin-bottom: 134px;
   margin-right: 76px;
@@ -1222,8 +1225,6 @@ button {
   margin-bottom: 93px;
 }
 .enter-list {
-}
-.cont-enter {
   display: flex;
 }
 .enter-item {

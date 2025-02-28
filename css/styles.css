@@ -1345,7 +1345,21 @@ button {
   height: 122px;
   margin-bottom: 32px;
 }
-
+.cont-efects-item-svg {
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 100px;
+  background: #f4f5f7;
+}
+.efects-item-svg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-right: 14px;
+}
 .efects-item:last-child {
   width: 506px;
   height: 122px;

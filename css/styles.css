@@ -162,11 +162,13 @@ button {
   background-color: #fff;
   min-width: 164px;
   height: 23px;
+  display: flex;
+  align-items: center;
+  gap: 8.66px;
 }
 .hero-btn-svg {
   border-radius: 2px;
   fill: #02897a;
-  margin-right: 8px;
 }
 /* #endregion hero */
 
@@ -313,17 +315,22 @@ button {
   padding-top: 41px;
   padding-bottom: 40px;
 }
+.yellow {
+  background: #f90;
+}
+
 .supp-title {
   font-weight: 600;
   font-size: 16px;
-  color: #22343d;
-  margin-bottom: 25px;
   max-width: 304px;
+  display: inline-block;
+  margin-bottom: 8px;
 }
 .supp-title-span {
   font-weight: 700;
   font-size: 32px;
-  color: #22343d;
+  max-width: 304px;
+  margin-bottom: 25px;
 }
 .supp-descr {
   font-weight: 400;
@@ -331,18 +338,34 @@ button {
   line-height: 1.62;
   color: #22343d;
   margin-top: 25px;
+  max-width: 437px;
   margin-bottom: 30px;
 }
-.supp-list {
-}
 .supp-list-item {
+  margin-bottom: 25px;
+}
+.supp-item {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supp-item-icon {
+  fill: #fff;
+}
+.support-item-cont {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 .item-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
-  color: #22343d;
-  margin-bottom: 25px;
+  max-width: 385px;
 }
 .supp-list-item:last-child {
   margin-bottom: 0;

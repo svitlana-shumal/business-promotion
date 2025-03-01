@@ -1482,8 +1482,8 @@ button {
 .cont-contact {
   width: 868px;
   height: 670px;
-  margin-top: 50px;
   border: 1px solid #ddd;
+  padding: 52px 50px;
   border-radius: 20px;
   background: #fff;
 }
@@ -1495,7 +1495,6 @@ button {
   color: #252b42;
   text-align: center;
   margin: 0 auto;
-  margin-top: 51px;
   margin-bottom: 46px;
 }
 .contact-form {
@@ -1565,7 +1564,6 @@ button {
   background: #02897a;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 52px;
   margin-left: 50px;
   margin-top: 45px;
 }

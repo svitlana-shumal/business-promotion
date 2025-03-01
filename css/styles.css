@@ -1146,11 +1146,7 @@ button {
   display: flex;
 }
 .apply-photo {
-  border: 5.4px solid #9fa2a5;
-  border-radius: 16px 16px 0 0;
-  width: 407px;
-  height: 274px;
-  background: #000;
+  border-radius: none;
   display: flex; /* Використовуємо Flexbox */
   justify-content: center; /* Центрування по горизонталі */
   align-items: center; /* Центрування по вертикалі */
@@ -1212,11 +1208,7 @@ button {
   color: #22343d;
 }
 .apply-photo-revers {
-  border: 9.11px solid #9fa2a5;
-  border-radius: 27px 27px 0 0;
-  width: 407px;
-  height: 274px;
-  background: #000;
+  border-radius: none;
 }
 .btn-apply {
   border-radius: 8px;

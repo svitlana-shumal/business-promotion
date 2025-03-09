@@ -124,7 +124,6 @@ button {
   font-weight: 700;
   font-size: 40px;
   max-width: 415px;
-  /* line-height: 60px; */
   line-height: 1.5;
   color: #22343d;
   margin-bottom: 18px;
@@ -132,7 +131,6 @@ button {
 .hero-title-descr {
   font-weight: 400;
   font-size: 18px;
-  /* line-height: 28px; */
   line-height: 1.5;
   color: #22343d;
   margin-bottom: 45px;
@@ -247,15 +245,19 @@ button {
 /* #endregion product */
 /* #region management */
 .management {
+  display: flex;
+  align-items: center;
+  margin-bottom: 93px;
 }
 .mana {
   display: flex;
-  align-item: center;
+  align-items: center;
 }
 .cont-mana {
   margin-right: 84px;
-  padding-top: 91px;
-  padding-bottom: 141px;
+
+  padding-top: 41px;
+  padding-bottom: 41px;
 }
 .mana-title {
   font-weight: 700;
@@ -300,7 +302,6 @@ button {
   max-width: 486px;
 }
 .mana-photo {
-  margin-top: 50px;
 }
 /* #endregion management */
 /* #region support */
@@ -308,7 +309,8 @@ button {
 }
 .supp {
   display: flex;
-  align-item: center;
+  align-items: center;
+  margin-bottom: 107px;
 }
 .cont-supp {
   margin-left: 84px;
@@ -376,12 +378,13 @@ button {
 }
 .collab {
   display: flex;
-  align-item: center;
+  align-items: center;
+  margin-bottom: 150px;
 }
 .cont-collab {
   margin-right: 84px;
-  padding-top: 141px;
-  padding-bottom: 191px;
+  padding-top: 41px;
+  padding-bottom: 41px;
 }
 .collab-title {
   font-weight: 600;
@@ -430,6 +433,7 @@ button {
 }
 .container.proc {
   width: 916px;
+  padding: 0;
 }
 .process-title {
   font-weight: 700;
@@ -452,24 +456,35 @@ button {
 .process-list {
   display: flex;
   align-items: center;
-  column-gap: 91px;
+  column-gap: 100px;
   row-gap: 25px;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
 .process-list-item {
-  width: calc((100% - 91px) / 2);
-}
-.item-pros {
+  width: 408px;
   display: flex;
   align-items: center;
 }
 .revers {
   flex-direction: row-reverse;
 }
-.pross-user {
-}
 .pros-item-descr {
+  width: 281px;
+  min-height: 50px;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2f281e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 19px;
+  fill: #fff;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  margin: 0 auto;
+}
+.pros-item-descr-revers {
   width: 281px;
   height: 50px;
   border-radius: 24px;
@@ -477,11 +492,10 @@ button {
   font-size: 16px;
   color: #2f281e;
   display: flex;
-  text-align: center;
   justify-content: center;
-  gap: 10px;
-  min-height: 50px;
   align-items: center;
+  padding: 13px 19px;
+  min-height: 50px;
   fill: #fff;
   box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
   margin: 0 auto;
@@ -566,6 +580,8 @@ button {
 /* #endregion strateg */
 /* #region price */
 .price {
+  margin-top: 171px;
+  margin-bottom: 100px;
 }
 .price-title {
   font-weight: 700;
@@ -586,19 +602,14 @@ button {
 .price-list {
   display: flex;
   gap: 72px;
-  margin-bottom: 100px;
-  margin-top: 40px;
-}
-.price-list:last-child {
-  margin-right: 0;
 }
 .price-item {
   border-radius: 8px;
   width: 322px;
-  height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
   margin: 0 auto;
+  padding: 32px 67px;
 }
 .price-item-title {
   font-weight: 700;
@@ -606,7 +617,6 @@ button {
   line-height: 1.66;
   color: #22343d;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .price-item-descr {
@@ -616,13 +626,13 @@ button {
   line-height: 2.5;
   color: #22343d;
   text-align: center;
-  margin-bottom: 16px;
 }
 .cont-price {
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 83px;
-  margin-right: 82px;
 }
 .cont-price-descr {
   font-family: "Montserrat", sans-serif;
@@ -632,6 +642,7 @@ button {
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
+  margin-right: 7px;
 }
 .cont-one {
   display: block;
@@ -644,7 +655,6 @@ button {
   letter-spacing: 0em;
   color: #02897a;
   margin-top: 24px;
-  margin-left: 7px;
   margin-bottom: 4px;
 }
 .cont-descr-price {
@@ -654,7 +664,6 @@ button {
   line-height: 1.18;
   letter-spacing: 0.01em;
   color: #afafaf;
-  margin-left: 7px;
 }
 .price-text {
   font-family: "Montserrat", sans-serif;
@@ -675,16 +684,15 @@ button {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 32px;
-  margin-left: 92px;
 }
 .price-item-two {
   border-radius: 8px;
   width: 322px;
-  height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
   background: #02897a;
+  padding: 32px 67px;
 }
 .item-title-two {
   font-family: "Montserrat", sans-serif;
@@ -693,7 +701,6 @@ button {
   line-height: 1.66;
   color: #fff;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .item-descr-two {
@@ -703,13 +710,14 @@ button {
   line-height: 2.5;
   color: #fff;
   text-align: center;
+  margin-bottom: 8px;
 }
 .cont-price-two {
   display: flex;
-  margin-bottom: 16px;
-  margin-left: 83px;
-  margin-right: 82px;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 .cont-price-descr-two {
   font-family: "Montserrat", sans-serif;
@@ -719,6 +727,7 @@ button {
   letter-spacing: 0em;
   text-align: center;
   color: #fff;
+  margin-right: 10px;
 }
 .cont-two {
   display: block;
@@ -731,7 +740,6 @@ button {
   letter-spacing: 0em;
   color: #fff;
   margin-top: 24px;
-  margin-left: 7px;
   margin-bottom: 4px;
 }
 .cont-descr-price-two {
@@ -741,7 +749,6 @@ button {
   line-height: 1.19;
   letter-spacing: 0.01em;
   color: #e0e0e0;
-  margin-left: 7px;
 }
 .price-text-two {
   font-family: "Montserrat", sans-serif;
@@ -762,13 +769,13 @@ button {
   width: 139px;
   height: 44px;
   background: #fff;
+  margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 32px;
-  margin-left: 92px;
 }
 /* #endregion price */
 /* #region coment */
 .coment {
+  margin-bottom: 100px;
 }
 .coment-title {
   font-weight: 700;
@@ -793,22 +800,22 @@ button {
 }
 .coment-list {
   display: flex;
-  margin-bottom: 100px;
+  gap: 64px;
 }
 .coment-item {
   border: 1px solid #dedede;
   border-radius: 5px;
-  padding: 16px 26px;
+  padding: 28px 26px;
   width: 327px;
   height: 240px;
   background: #fff;
-  margin-right: 64px;
 }
 .coment-item:last-child {
   margin-right: 0;
 }
 .coment-star {
   margin-bottom: 16px;
+  margin-left: 2px;
 }
 .coment-text {
   font-weight: 400;
@@ -817,7 +824,7 @@ button {
   letter-spacing: 0.01em;
   color: #737373;
   margin: 0 auto;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .coment-photo {
 }
@@ -1129,8 +1136,11 @@ button {
 /* #endregion busines */
 /* #region apply */
 .apply {
+  padding-top: 101px;
+  padding-bottom: 133px;
 }
 .app {
+  margin-bottom: 100px;
 }
 .apply-title {
   font-weight: 700;
@@ -1138,30 +1148,27 @@ button {
   text-align: center;
   color: #22343d;
   margin: 0 auto;
-  margin-top: 100px;
   margin-bottom: 73px;
 }
 .apply-list {
-  width: 1027px;
-  height: 279px;
-  margin-bottom: 100px;
 }
 .apply-item {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .apply-photo {
-  border-radius: none;
   display: flex; /* Використовуємо Flexbox */
   justify-content: center; /* Центрування по горизонталі */
   align-items: center; /* Центрування по вертикалі */
 }
+
 .apply-cont {
   display: block;
-  width: 438px;
-  height: 210px;
+  max-width: 438px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   margin-left: 89px;
-  margin-top: 49px;
-  margin-bottom: 134px;
 }
 .apply-item-text {
   font-weight: 500;
@@ -1183,13 +1190,15 @@ button {
 }
 .apply-item-revers {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 .apply-cont-revers {
   display: block;
-  width: 438px;
-  height: 210px;
-  margin-top: 49px;
-  margin-bottom: 134px;
+  max-width: 445px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   margin-right: 76px;
 }
 
@@ -1212,7 +1221,9 @@ button {
   color: #22343d;
 }
 .apply-photo-revers {
-  border-radius: none;
+  display: flex; /* Використовуємо Flexbox */
+  justify-content: end; /* Центрування по горизонталі */
+  align-items: end; /* Центрування по вертикалі */
 }
 .btn-apply {
   border-radius: 8px;
@@ -1224,11 +1235,14 @@ button {
   font-size: 18px;
   color: #fff;
   margin: 0 auto;
-  margin-bottom: 150px;
+  margin-top: 78px;
 }
 /* #endregion apply */
 /* #region enterprice*/
 .enterprise {
+  padding-top: 17px;
+  padding-bottom: 63px;
+  margin-bottom: 132px;
 }
 .enter.container {
 }
@@ -1252,8 +1266,10 @@ button {
   text-align: center;
 }
 .enter-item-title {
+  font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
+  color: #000;
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
@@ -1271,7 +1287,6 @@ button {
   font-size: 16px;
   line-height: 1.75;
   margin-top: 12px;
-  margin-bottom: 63px;
   text-align: center;
 }
 /* #region enterprice */
@@ -1303,17 +1318,16 @@ button {
 .enter-enter {
   margin-top: 150px;
   margin-bottom: 294px;
+  padding-top: 53px;
+  padding-bottom: 51px;
 }
 .enters {
   background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
-  width: 1399px;
-  height: 318px;
 }
 .enter-text-enter {
   font-weight: 600;
   font-size: 24px;
   color: #22343d;
-  margin-top: 53px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -1329,6 +1343,7 @@ button {
   font-size: 18px;
   color: #22343d;
   text-align: center;
+  margin-bottom: 32px;
 }
 .enter-btn-enter {
   font-family: "Montserrat", sans-serif;
@@ -1340,8 +1355,6 @@ button {
   height: 44px;
   background: #02897a;
   margin: 0 auto;
-  margin-top: 32px;
-  margin-bottom: 51px;
 }
 /* #endregion enter */
 /* #region efects */

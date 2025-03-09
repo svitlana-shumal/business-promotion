@@ -1063,6 +1063,8 @@ button {
 /* #endregion clients */
 /* #region busines */
 .busines {
+  padding-top: 24px;
+  padding-bottom: 68px;
 }
 .container.bus {
   background: #f5f5f5;
@@ -1080,15 +1082,12 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 .busines-item {
   border: 1px solid #dedede;
   border-radius: 10px;
-  padding: 40px 50px;
-  width: 350px;
-  height: 305px;
-  margin-right: 30px;
-  margin-bottom: 68px;
+  padding: 32px 37px;
 }
 .busines-item:last-child {
   margin-right: 0;
@@ -1111,7 +1110,9 @@ button {
   font-size: 24px;
   line-height: 1.375;
   letter-spacing: 0em;
-  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 294px;
   color: #22343d;
   margin: 0 auto;
@@ -1124,7 +1125,6 @@ button {
   letter-spacing: 0.01em;
   text-align: center;
   color: #22343d;
-  margin-bottom: 34px;
 }
 /* #endregion busines */
 /* #region apply */
@@ -1244,15 +1244,22 @@ button {
 }
 .enter-list {
   display: flex;
+  justify-content: center;
+  gap: 227px;
 }
 .enter-item {
+  display: block;
+  text-align: center;
 }
 .enter-item-title {
-  font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 .enter-text {
+  width: 275px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.78;
@@ -1263,7 +1270,9 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.75;
+  margin-top: 12px;
   margin-bottom: 63px;
+  text-align: center;
 }
 /* #region enterprice */
 .pricing {

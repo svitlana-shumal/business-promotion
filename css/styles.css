@@ -57,7 +57,6 @@ button {
   display: flex;
   gap: 16px;
   margin-right: 237px;
-  /* line-height: 28px; */
   line-height: 0.93;
   color: #173a56;
   align-items: center;
@@ -71,7 +70,6 @@ button {
 .nav-item-link {
   padding: 26px 0;
   display: block;
-  /* line-height: 28px; */
   line-height: 1.75;
   color: #22343d;
 }
@@ -906,7 +904,7 @@ button {
 .container {
 }
 .container-footer {
-  margin-top: 100px;
+  padding-bottom: 40px;
 }
 .footer-item-logo {
   align-items: center;
@@ -918,7 +916,6 @@ button {
   font-size: 30px;
   display: flex;
   gap: 16px;
-  /* line-height: 28px; */
   line-height: 0.93;
   color: #173a56;
   align-items: center;
@@ -1031,7 +1028,6 @@ button {
   color: #22343d;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 40px;
   margin-top: 10px;
 }
 /* #endregion footer */
@@ -1475,8 +1471,7 @@ button {
 }
 .great-business.container {
   display: flex;
-  margin-top: 77px;
-  margin-bottom: 67px;
+  padding-top: 77px;
 }
 .great-cont {
   display: block;
@@ -1553,8 +1548,9 @@ button {
 }
 /* #endregion great business */
 /* #region laters stories */
-/* #endregion laters stories */
 .laters {
+  padding-top: 66px;
+  padding-bottom: 100px;
 }
 .container {
 }
@@ -1602,7 +1598,6 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 32px;
-  margin-bottom: 100px;
 }
 .laters-text-descr {
   font-weight: 500;
@@ -1615,6 +1610,7 @@ button {
 .laters-icon {
   fill: #2e3a59;
 }
+/* #endregion laters stories */
 /* #region contact us */
 .contactus {
 }
@@ -1630,7 +1626,6 @@ button {
   letter-spacing: 0.01em;
   text-align: center;
   color: #252b42;
-  margin-top: 50px;
 }
 .contactus-text {
   font-weight: 500;

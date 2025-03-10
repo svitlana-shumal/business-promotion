@@ -35,9 +35,8 @@ button {
   cursor: pointer;
   border: none;
 }
-
-/* #endregion */
-
+/* #endregion  */
+/* #region header */
 .header {
 }
 .container {
@@ -105,7 +104,7 @@ button {
   height: 42px;
   color: #fff;
 }
-
+/* #endregion header */
 /* #region hero */
 
 .hero {
@@ -1066,6 +1065,7 @@ button {
 /* #endregion clients */
 /* #region busines */
 .busines {
+  background: #f5f5f5;
   padding-top: 24px;
   padding-bottom: 68px;
 }
@@ -1249,7 +1249,6 @@ button {
   color: #22343d;
   width: 537px;
   margin: 0 auto;
-  margin-top: 31px;
   margin-bottom: 93px;
 }
 .enter-list {
@@ -1260,6 +1259,10 @@ button {
 .enter-item {
   display: block;
   text-align: center;
+}
+.enter-item-photo {
+  margin: 0 auto;
+  margin-bottom: 27px;
 }
 .enter-item-title {
   font-weight: 500;
@@ -1285,7 +1288,11 @@ button {
   margin-top: 12px;
   text-align: center;
 }
-/* #region enterprice */
+/* #endregion enterprice */
+
+/* pricises.html */
+
+/* #region pricing */
 .pricing {
 }
 .pricing-text {
@@ -1310,6 +1317,7 @@ button {
   color: #22343d;
   margin-bottom: 49px;
 }
+/* #endregion pricing */
 /* #region enter */
 .enter-enter {
   margin-top: 150px;
@@ -1457,7 +1465,9 @@ button {
   color: #22343d;
 }
 /* #endregion frequently */
-/* #region resources.html*/
+
+/* resources.html*/
+/* #region*/
 .list-btn-item-icon {
   border-radius: 100px;
   width: 32px;
@@ -1466,6 +1476,7 @@ button {
   display: flex;
   align-items: center;
 }
+/* #endregion */
 /* #region great business */
 .great {
 }
@@ -1754,4 +1765,4 @@ button {
   margin-left: 50px;
   margin-top: 45px;
 }
-/*#region contact us*/
+/* #endregion contact us */

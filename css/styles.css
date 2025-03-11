@@ -156,6 +156,7 @@ button {
   color: #02897a;
   background-color: #fff;
   min-width: 164px;
+  border: none;
   height: 23px;
   display: flex;
   align-items: center;

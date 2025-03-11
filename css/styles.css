@@ -1239,6 +1239,8 @@ button {
   padding-top: 17px;
   padding-bottom: 63px;
   margin-bottom: 132px;
+
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
 }
 .enter.container {
 }
@@ -1430,8 +1432,9 @@ button {
 }
 /* #endregion efects */
 /* #region frequently */
-.container .frequ {
+.frequ {
   padding-bottom: 150px;
+  padding-top: 6px;
 }
 .frequently-title {
   font-weight: 700;
@@ -1448,22 +1451,84 @@ button {
   margin-bottom: 50px;
 }
 .cont-frequ {
-}
-.frequently-list {
   width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.frequently-item {
+summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.frequently-item-title {
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.frequ-list {
   font-weight: 500;
   font-size: 18px;
   color: #22343d;
+  margin-bottom: 14px;
+  position: relative;
+  display: flex;
 }
+
+.icon-plus {
+  display: block;
+}
+
+.icon-minus {
+  display: none;
+}
+
+.icon-minus,
+.icon-plus {
+  margin-right: 16px;
+}
+
+.frequ-list::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -22px; /* Відступ від нижньої частини тексту */
+  border: 1px solid #e7e7e7;
+  width: 100%; /* Використовуємо всю ширину, щоб лінія відображалась під текстом та іконкою */
+  height: 0px;
+}
+
+details[open] .icon-plus {
+  display: none;
+}
+
+details[open] .icon-minus {
+  display: block;
+}
+
+details[open] .frequ-list::after {
+  display: none;
+}
+
 .frequently-item-text {
   font-weight: 400;
   font-size: 16px;
   color: #22343d;
+  margin-bottom: 24px;
+  position: relative;
 }
+
+.frequently-item-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -24px; /* Відступ від нижньої частини тексту */
+  border: 1px solid #e7e7e7;
+  width: 100%; /* Використовуємо всю ширину, щоб лінія відображалась під текстом */
+  height: 0px;
+}
+
 /* #endregion frequently */
 
 /* resources.html*/

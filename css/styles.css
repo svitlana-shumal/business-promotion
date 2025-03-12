@@ -224,9 +224,7 @@ button {
   border-radius: 4px;
   width: 175px;
   height: 53px;
-  display: block;
   margin: 0 auto;
-  border: none;
 }
 .green {
   background: #02897a;
@@ -502,8 +500,6 @@ button {
   border-radius: 4px;
   width: 216px;
   height: 53px;
-  margin-top: 50px;
-  margin-bottom: 100px;
   margin: 0 auto;
 }
 /* #endregion process */
@@ -1216,7 +1212,6 @@ button {
   font-size: 18px;
   color: #fff;
   margin: 0 auto;
-  margin-top: 78px;
 }
 /* #endregion apply */
 /* #region enterprice*/
@@ -1525,6 +1520,7 @@ details[open] .frequ-list::after {
   background: #f3f3f3;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 /* #endregion */
 /* #region great business */
@@ -1674,9 +1670,11 @@ details[open] .frequ-list::after {
 .contactus {
 }
 .cont.container {
-  padding: 50px 0px;
-  width: 871px;
-  height: 1484px;
+  padding-top: 50px;
+  padding-right: 120px;
+  padding-left: 118px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 .contactus-subtitle {
   font-weight: 700;
@@ -1716,13 +1714,7 @@ details[open] .frequ-list::after {
 }
 .cont-map {
   padding: 10px 0px;
-  width: 871px;
-  height: 343px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 29px;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 .cont-contact {
@@ -1732,6 +1724,7 @@ details[open] .frequ-list::after {
   padding: 52px 50px;
   border-radius: 20px;
   background: #fff;
+  margin: 0 auto;
 }
 .cont-contact-title {
   font-weight: 700;

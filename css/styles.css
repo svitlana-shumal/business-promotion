@@ -505,13 +505,14 @@ button {
 /* #endregion process */
 /* #region strateg */
 .strategies {
+  margin-top: 100px;
+  margin-bottom: 171px;
 }
 .stateg-title {
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
   margin-bottom: 10px;
-  margin-top: 100px;
 }
 .strateg-text {
   font-weight: 500;
@@ -524,7 +525,6 @@ button {
 .strateg-list {
   display: flex;
   gap: 30px;
-  margin-bottom: 171px;
 }
 .strateg-item {
   width: calc((100% - 60px) / 3);
@@ -1606,8 +1606,8 @@ details[open] .frequ-list::after {
 /* #endregion great business */
 /* #region laters stories */
 .laters {
-  padding-top: 66px;
-  padding-bottom: 100px;
+  margin-top: 66px;
+  margin-bottom: 100px;
 }
 .laters-title {
   font-weight: 700;
@@ -1628,6 +1628,8 @@ details[open] .frequ-list::after {
   gap: 32px;
 }
 .laters-item {
+  border: 1px solid #dedede;
+  border-radius: 8px;
   width: calc((100% - 64px) / 3);
 }
 .laters-item-descr {
@@ -1651,6 +1653,7 @@ details[open] .frequ-list::after {
 }
 .cont-laters-icon {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 32px;
 }

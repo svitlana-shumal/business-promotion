@@ -108,11 +108,11 @@ button {
 /* #region hero */
 
 .hero {
-  padding: 25px 0 50px;
 }
 .hero-container {
   display: flex;
   gap: 35px;
+  padding: 25px 0 50px;
 }
 .wrapper {
   padding: 112px 0;

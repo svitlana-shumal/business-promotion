@@ -81,12 +81,17 @@
                         </li>
                     </ul>
                 </div>
-                <img src="./images/hero-img.png" alt="peoples" width="610" height="555">
+                <picture>
+                    <source srcset="" media="(min-width: 768px)">
+                    <source srcset="./images/index-mobile/hero@1x.png 1x, ./images/index-mobile/hero@2x.png 2x"
+                        media="(max-width: 767px)">
+                    <img src="./images/hero-img.png" alt="peoples" width="610" height="555">
+                </picture>
             </div>
         </section>
         <!--#endregion-->
         <!--#region product-->
-        <section class="product hidden">
+        <section class="product">
             <div class="container">
                 <h2 class="product-title">Product was Built Specifically for You</h2>
                 <ul class="product-list">

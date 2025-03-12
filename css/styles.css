@@ -1038,8 +1038,6 @@ button {
 .clients {
 }
 .cont-clients {
-  margin: 0 auto;
-  width: 850px;
 }
 .clients-title {
   font-weight: 700;
@@ -1051,15 +1049,14 @@ button {
   margin-bottom: 50px;
 }
 .clients-list {
-  margin-bottom: 117px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   gap: 64px;
   padding: 16px 0px;
-  width: 850px;
-  height: 82px;
+  margin: 0 auto;
+  margin-bottom: 117px;
 }
 .clients-logo {
 }

@@ -243,17 +243,14 @@ button {
 /* #endregion product */
 /* #region management */
 .management {
-  display: flex;
-  align-items: center;
-  margin-bottom: 93px;
 }
 .mana {
   display: flex;
   align-items: center;
+  margin-bottom: 93px;
 }
 .cont-mana {
   margin-right: 84px;
-
   padding-top: 41px;
   padding-bottom: 41px;
 }
@@ -275,7 +272,6 @@ button {
   line-height: 1.62;
   color: #22343d;
   margin-bottom: 30px;
-  max-width: 486px;
 }
 .mana-list {
 }
@@ -408,6 +404,9 @@ button {
 }
 .collab-list-item {
 }
+.collab-list-item:last-child {
+  margin-bottom: 0;
+}
 .item-title {
   font-weight: 600;
   font-size: 16px;
@@ -422,15 +421,12 @@ button {
   color: #22343d;
   margin-bottom: 25px;
 }
-.collab-list-item:last-child {
-  margin-bottom: 0;
-}
 /* #endregion collab */
 /* #region process */
 .process {
 }
 .container.proc {
-  width: 916px;
+  max-width: 916px;
   padding: 0;
 }
 .process-title {
@@ -857,10 +853,13 @@ button {
 .container.joins {
   border-radius: 32px;
   width: 968px;
-  height: 345px;
   background: #02897a;
   display: flex;
   margin-bottom: 150px;
+  padding-top: 4px;
+  padding-right: 46px;
+  padding-bottom: 10px;
+  padding-left: 51px;
 }
 .cont-join {
   display: block;
@@ -871,11 +870,9 @@ button {
   line-height: 1.514;
   color: #fff;
   align-items: center;
-  max-width: 510px;
-  margin-top: 49px;
+  margin-top: 45px;
   margin-bottom: 46px;
   margin-right: 10px;
-  margin-left: 51px;
 }
 .btn-joins {
   border-radius: 8px;
@@ -885,23 +882,13 @@ button {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
-  margin-left: 51px;
-  margin-bottom: 56px;
+  margin-bottom: 46px;
 }
 .joins-photo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  width: 351px;
-  height: 331px;
 }
 /* #endregion join */
 /* #region footer */
 .footer {
-}
-.container {
 }
 .container-footer {
   padding-bottom: 40px;
@@ -1625,8 +1612,6 @@ details[open] .frequ-list::after {
 .laters {
   padding-top: 66px;
   padding-bottom: 100px;
-}
-.container {
 }
 .laters-title {
   font-weight: 700;

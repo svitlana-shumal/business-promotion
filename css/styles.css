@@ -377,8 +377,168 @@ img {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  gap: 50px;
   padding-right: 31px;
   padding-left: 31px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.cont-mana {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+.mana-title {
+  max-width: 224px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.mana-title-span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.mana-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.mana-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-top: 16px;
+}
+.mana-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .mana {
+    flex-direction: row;
+    margin-bottom: 93px;
+    padding: 0;
+    gap: 84px;
+  }
+  .cont-mana {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    width: 486px;
+  }
+  .mana-title {
+    max-width: 224px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .mana-descr {
+    margin-bottom: 30px;
+  }
+  .mana-item-title {
+    margin-top: 25px;
+  }
+  .mana-item-descr {
+    margin-top: 12px;
+  }
+}
+
+/* #endregion management */
+/* #region support */
+.supp {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-right: 30px;
+  padding-left: 31px;
+  margin-bottom: 100px;
+}
+.cont-supp {
+  padding-left: 5px;
+  padding-right: 6px;
+}
+.yellow {
+  background: #f90;
+}
+.supp-title {
+  font-weight: 600;
+  font-size: 16px;
+  max-width: 304px;
+  margin-bottom: 8px;
+}
+.supp-title-span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 304px;
+  margin-bottom: 25px;
+}
+.supp-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  margin-top: 15px;
+  max-width: 437px;
+}
+.supp-list {
+  margin-top: 16px;
+}
+.supp-list-item {
+  margin-bottom: 16px;
+}
+.supp-item {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supp-item-icon {
+  fill: #fff;
+}
+.support-item-cont {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  max-width: 385px;
+}
+
+@media screen and (min-width: 768px) {
+  .supp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 107px;
+    gap: 84px;
+  }
+  .cont-supp {
+    padding-top: 41px;
+    padding-bottom: 40px;
+    padding-right: 35px;
+  }
+  .supp-list {
+    margin-top: 30px;
+  }
+  .supp-list-item {
+    margin-bottom: 25px;
+  }
+  .supp-list-item:last-child {
+    margin-bottom: 0;
+  }
+}
+/* #endregion support */
+/* #region collab */

@@ -138,7 +138,7 @@
         </section>
         <!--#endregion product-->
         <!--#region management-->
-        <section class="management hidden">
+        <section class="management">
             <div class="container mana">
                 <div class="cont-mana">
                     <h2 class="mana-title"><span class="mana-title-span">Effortless Validation for</span> Management
@@ -164,14 +164,26 @@
                         </li>
                     </ul>
                 </div>
-                <img class="mana-photo" src="./images/management-img.png" alt="managment" width="540" height="500">
+                <picture>
+                    <source srcset="./images/index-desktop/mana@1x.png 1x, ./images/index-desktop/mana@2x.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="./images/index-mobile/mana@1x.png 1x, ./images/index-mobile/mana@2x.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="mana-photo" src="./images/management-img.png" alt="managment" width="540" height="500">
+                </picture>
             </div>
         </section>
         <!--#endregion management-->
         <!--#region support-->
         <section class="support hidden">
             <div class="container supp">
-                <img src="./images/support-img.png" alt="customer support" width="540" height="500">
+                <picture>
+                    <source srcset="./images/index-desktop/support@1x.png 1x, ./images/index-desktop/support@2x.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="./images/index-mobile/support@1x.png 1x, ./images/index-mobile/support@2x.png 2x"
+                        media="(max-width: 767px)">
+                    <img src="./images/support-img.png" alt="customer support" width="540" height="500">
+                </picture>
                 <div class="cont-supp">
                     <h2 class="supp-title">Easier decision making for <span class="supp-title-span">Customer
                             Support</span></h2>
@@ -240,7 +252,13 @@
                         </li>
                     </ul>
                 </div>
-                <img src="./images/collaboration-img.png" alt="collaboration" width="540" height="500">
+                <picture>
+                    <source srcset="./images/index-desktop/collab@1x.png 1x, ./images/index-desktop/collab@2x.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="./images/index-mobile/collab@1x.png 1x, ./images/index-mobile/collab@2x.png 2x"
+                        media="(max-width: 767px)">
+                    <img src="./images/collaboration-img.png" alt="collaboration" width="540" height="500">
+                </picture>
             </div>
         </section>
         <!--#endregion collab-->

@@ -64,10 +64,14 @@ img {
   .container {
     max-width: 1140px;
     padding: 0 15px;
+    margin: 0 auto;
   }
 }
 /* #region header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
 }
@@ -262,3 +266,110 @@ img {
 /* #endregion hero */
 
 /* #region product */
+.product {
+  padding-top: 16px;
+  padding-bottom: 38px;
+  padding-right: 39px;
+  padding-left: 40px;
+  margin: 0 auto;
+}
+.prod.container {
+  padding: 0;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.product-list-item {
+  width: 240px;
+  height: 198px;
+}
+.product-list-item-cont {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  fill: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-item-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-bottom: 13px;
+}
+.product-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+}
+.product-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.green {
+  background: #02897a;
+}
+.blue {
+  background: #4d8dff;
+}
+.violet {
+  background: #740a76;
+}
+.red {
+  background: #f03e3d;
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    padding: 0;
+  }
+  .prod.container {
+    padding: 0 15px;
+  }
+  .product-title {
+    max-width: 530px;
+    margin: 0 auto 50px;
+  }
+  .product-list {
+    max-width: 1110px;
+    text-align: start;
+    gap: 30px;
+    margin-bottom: 76px;
+  }
+  .product-list-item {
+    width: calc((100% - 90px) / 4);
+    height: 204px;
+  }
+  .product-list-item:last-child {
+    margin-right: 0;
+  }
+  .product-list-item-cont {
+    margin: 0;
+    margin-bottom: 18px;
+  }
+}
+/* #endregion product */
+/* #region management */

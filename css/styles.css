@@ -79,7 +79,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 17px;
 }
 .header-logo {
   font-weight: 700;
@@ -89,6 +88,8 @@ img {
   color: #173a56;
   align-items: center;
   gap: 8px;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 .nav-list,
 .list-btn {
@@ -109,7 +110,6 @@ img {
   }
   .header-container {
     display: flex;
-    padding: 0;
   }
   .navigation {
     display: flex;
@@ -168,9 +168,9 @@ img {
 .hero-container {
   display: flex;
   flex-direction: column-reverse;
-  padding-top: 29px;
   padding-right: 12px;
   padding-left: 30px;
+  padding-top: 29px;
   padding-bottom: 110px;
 }
 .wrapper {
@@ -230,14 +230,15 @@ img {
 @media screen and (min-width: 768px) {
   .hero-container {
     flex-direction: row;
-    gap: 35px;
-    padding: 25px 0;
     margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 100px;
   }
   .wrapper {
     max-width: 465px;
     padding-top: 109px;
     padding-bottom: 110px;
+    margin-right: 35px;
   }
   .hero-title {
     font-size: 40px;
@@ -267,14 +268,13 @@ img {
 
 /* #region product */
 .product {
+}
+.prod {
   padding-top: 16px;
   padding-bottom: 38px;
   padding-right: 39px;
   padding-left: 40px;
   margin: 0 auto;
-}
-.prod.container {
-  padding: 0;
 }
 .product-title {
   font-weight: 700;
@@ -344,20 +344,21 @@ img {
 
 @media screen and (min-width: 768px) {
   .product {
-    padding: 0;
   }
-  .prod.container {
-    padding: 0 15px;
+  .prod {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 50px;
   }
   .product-title {
     max-width: 530px;
     margin: 0 auto 50px;
   }
   .product-list {
-    max-width: 1110px;
     text-align: start;
     gap: 30px;
-    margin-bottom: 76px;
+    margin-bottom: 50px;
   }
   .product-list-item {
     width: calc((100% - 90px) / 4);
@@ -370,6 +371,9 @@ img {
     margin: 0;
     margin-bottom: 18px;
   }
+  .product-btn {
+    margin-top: 0;
+  }
 }
 /* #endregion product */
 /* #region management */
@@ -377,15 +381,13 @@ img {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  gap: 50px;
-  padding-right: 31px;
-  padding-left: 31px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 100px 31px;
+  padding-bottom: 50px;
 }
 .cont-mana {
   padding-right: 5px;
   padding-left: 10px;
+  margin-top: 50px;
 }
 .mana-title {
   max-width: 224px;
@@ -420,14 +422,14 @@ img {
 @media screen and (min-width: 768px) {
   .mana {
     flex-direction: row;
-    margin-bottom: 93px;
-    padding: 0;
-    gap: 84px;
+    padding: 50px 15px;
   }
   .cont-mana {
     padding-top: 41px;
     padding-bottom: 41px;
     width: 486px;
+    margin-top: 0;
+    margin-right: 84px;
   }
   .mana-title {
     max-width: 224px;
@@ -451,10 +453,10 @@ img {
 .supp {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   padding-right: 30px;
   padding-left: 31px;
-  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .cont-supp {
   padding-left: 5px;

@@ -548,6 +548,7 @@ img {
 .collab {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
   padding-right: 30px;
   padding-left: 31px;
   padding-top: 50px;
@@ -600,9 +601,10 @@ img {
     align-items: center;
     padding-right: 15px;
     padding-left: 15px;
-    padding-bottom: 75px;
+    padding-bottom: 70px;
   }
   .cont-collab {
+    width: 486px;
     margin-top: 0;
     margin-right: 84px;
     padding-top: 41px;
@@ -619,3 +621,226 @@ img {
     margin-top: 12px;
   }
 }
+/* #endregion collab */
+/* #region process */
+.proc {
+  align-items: center;
+  padding-top: 71px;
+  padding-bottom: 50px;
+  padding-right: 31px;
+  padding-left: 32px;
+}
+.process-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+  max-width: 348px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.process-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  max-width: 542px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.process-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.process-list-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.revers {
+  flex-direction: row-reverse;
+}
+.pros-item-descr {
+  width: 236px;
+  min-height: 64px;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2f281e;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 19px;
+  fill: #fff;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  margin: 0 auto;
+}
+.pros-item-descr-revers {
+  width: 236px;
+  height: 64px;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2f281e;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 13px 19px;
+  min-height: 50px;
+  fill: #fff;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  margin: 0 auto;
+}
+.pross-button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
+  border-radius: 4px;
+  width: 216px;
+  height: 53px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .proces {
+    max-width: 916px;
+  }
+  .process-title {
+    margin-bottom: 25px;
+  }
+  .process-descr {
+    margin-bottom: 40px;
+  }
+  .process-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    row-gap: 25px;
+    justify-content: center;
+  }
+  .process-list-item {
+    width: 408px;
+  }
+  .process-list-item:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .process-list-item:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .process-list-item:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .process-list-item:nth-child(4) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .pros-item-descr {
+    width: 281px;
+  }
+  .pros-item-descr-revers {
+    width: 281px;
+  }
+}
+/* #endregion process */
+/* #region strateg */
+.strat {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 29px;
+  padding-left: 33px;
+}
+.stateg-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.strateg-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  margin-bottom: 40px;
+}
+.strateg-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.strateg-item {
+  border-radius: 8px;
+  border: 1px solid #dedede;
+  overflow: hidden;
+}
+.strateg-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.strateg-span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.strateg-item-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #22343d;
+  margin-bottom: 40px;
+}
+.strateg-item-text-two {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #02897a;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .strat {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .stateg-title {
+    margin-bottom: 10px;
+  }
+  .strateg-text {
+    width: 465px;
+    margin-bottom: 40px;
+  }
+  .strateg-list {
+    gap: 30px;
+  }
+  .strateg-item {
+    width: calc((100% - 60px) / 3);
+  }
+  .strateg-item-descr {
+    margin-left: 25px;
+  }
+  .strateg-item-text {
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  .strateg-item-text-two {
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+}
+/* #endregion strateg */
+/* #region price */

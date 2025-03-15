@@ -62,9 +62,14 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1140px;
+    max-width: 768px;
     padding: 0 15px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .container {
+    max-width: 1140px;
   }
 }
 /* #region header */
@@ -104,7 +109,7 @@ img {
   display: block;
   fill: #2f2f37;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .header {
     box-shadow: none;
   }
@@ -462,7 +467,7 @@ img {
   background: #f03e3d;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .product {
   }
   .prod {
@@ -539,7 +544,7 @@ img {
   color: #22343d;
   margin-top: 12px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .mana {
     flex-direction: row;
     padding: 50px 15px;
@@ -639,7 +644,7 @@ img {
   max-width: 385px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .supp {
     display: flex;
     flex-direction: row;
@@ -715,7 +720,7 @@ img {
   margin-top: 12px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .collab {
     flex-direction: row;
     align-items: center;
@@ -826,7 +831,7 @@ img {
   height: 53px;
   margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .proces {
     max-width: 916px;
   }
@@ -935,7 +940,7 @@ img {
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .strat {
     padding-bottom: 85px;
     padding-right: 15px;
@@ -1166,7 +1171,7 @@ img {
   margin: 0 auto;
   margin-top: 30px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .price {
     padding-top: 86px;
     padding-bottom: 50px;
@@ -1264,7 +1269,7 @@ img {
   display: block;
   margin-left: 14px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .com {
     padding-right: 15px;
     padding-left: 15px;
@@ -1315,7 +1320,7 @@ img {
   color: #02897a;
   margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .joins {
     display: flex;
     width: 968px;
@@ -1474,7 +1479,7 @@ img {
   margin: 0 auto;
   margin-top: 10px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   .container-footer {
     padding-bottom: 40px;
   }

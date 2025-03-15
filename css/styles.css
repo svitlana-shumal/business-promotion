@@ -814,6 +814,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .strat {
+    padding-bottom: 85px;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -844,3 +845,325 @@ img {
 }
 /* #endregion strateg */
 /* #region price */
+.price {
+  padding-top: 31px;
+  padding-bottom: 50px;
+  padding-left: 44px;
+  padding-right: 44px;
+}
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.price-descr {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+.price-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.price-item {
+  border-radius: 8px;
+  width: 322px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  margin: 0 auto;
+  padding: 32px 67px;
+  transition: transform 0.25s;
+}
+.price-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.price-item-descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  text-align: center;
+}
+.cont-price {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.cont-price-descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+  margin-right: 7px;
+}
+.cont-one {
+  display: block;
+}
+.cont-descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.cont-descr-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.price-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn-price {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.price-item-two {
+  border-radius: 8px;
+  width: 322px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #02897a;
+  padding: 32px 67px;
+  transition: transform 0.25s;
+}
+.item-title-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.item-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.cont-price-two {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.cont-price-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+}
+.cont-two {
+  display: block;
+}
+.cont-descr-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.cont-descr-price-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+}
+.price-text-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn-price-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .price {
+    padding-top: 86px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .price-title {
+    margin-bottom: 10px;
+  }
+  .price-descr {
+    margin-bottom: 40px;
+  }
+  .price-list {
+    gap: 72px;
+  }
+}
+/* #endregion price */
+/* #region coment */
+.com {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 42px;
+  padding-left: 42px;
+}
+.coment-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.coment-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.coment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.coment-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+  width: 327px;
+  height: 240px;
+  background: #fff;
+}
+.coment-item:last-child {
+  margin-right: 0;
+}
+.coment-star {
+  margin-bottom: 16px;
+  margin-left: 2px;
+}
+.coment-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.comment-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+.coment-item-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+.comentar {
+  display: flex;
+  width: 145px;
+  height: 50px;
+  margin-bottom: 28px;
+}
+.comentar-text {
+  display: block;
+  margin-left: 14px;
+}
+@media screen and (min-width: 768px) {
+  .com {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .coment-title {
+    margin-bottom: 10px;
+  }
+  .coment-descr {
+    width: 537px;
+    margin-bottom: 40px;
+  }
+  .coment-list {
+    gap: 64px;
+  }
+}
+/* #endregion coment */
+/* #region join */
+.joins {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 32px;
+  background: #02897a;
+}

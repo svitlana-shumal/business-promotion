@@ -465,7 +465,8 @@ img {
 .red {
   background: #f03e3d;
 }
-
+@media screen and (min-width: 768px) {
+}
 @media screen and (min-width: 1140px) {
   .product {
   }
@@ -542,6 +543,8 @@ img {
   line-height: 1.62;
   color: #22343d;
   margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1140px) {
   .mana {
@@ -642,7 +645,8 @@ img {
   line-height: 1.62;
   max-width: 385px;
 }
-
+@media screen and (min-width: 768px) {
+}
 @media screen and (min-width: 1140px) {
   .supp {
     display: flex;
@@ -718,7 +722,8 @@ img {
   color: #22343d;
   margin-top: 12px;
 }
-
+@media screen and (min-width: 768px) {
+}
 @media screen and (min-width: 1140px) {
   .collab {
     flex-direction: row;
@@ -831,6 +836,9 @@ img {
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
+  .process-list {
+    gap: 5px;
+  }
 }
 @media screen and (min-width: 1140px) {
   .proces {
@@ -940,7 +948,20 @@ img {
   color: #02897a;
   margin-bottom: 40px;
 }
-
+@media screen and (min-width: 768px) {
+  .strateg-list {
+    gap: 10px;
+  }
+  .strateg-item {
+    width: calc((100% - 30px) / 3);
+  }
+  .strateg-item-text {
+    font-size: 18px;
+  }
+  .strateg-item-text-two {
+    font-size: 18px;
+  }
+}
 @media screen and (min-width: 1140px) {
   .strat {
     padding-bottom: 85px;
@@ -964,10 +985,12 @@ img {
     margin-left: 25px;
   }
   .strateg-item-text {
+    font-size: 24px;
     margin-left: 27px;
     margin-right: 27px;
   }
   .strateg-item-text-two {
+    font-size: 24px;
     margin-right: 27px;
     margin-left: 27px;
   }
@@ -1225,9 +1248,8 @@ img {
 .coment-item {
   border: 1px solid #dedede;
   border-radius: 5px;
-  padding: 28px 26px;
+  padding: 28px 26px 24px;
   width: 327px;
-  height: 240px;
   background: #fff;
 }
 .coment-item:last-child {
@@ -1244,7 +1266,7 @@ img {
   letter-spacing: 0.01em;
   color: #737373;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 .comment-item-title {
   font-weight: 600;
@@ -1264,11 +1286,14 @@ img {
   display: flex;
   width: 145px;
   height: 50px;
-  margin-bottom: 28px;
 }
 .comentar-text {
   display: block;
   margin-left: 14px;
+}
+@media screen and (min-width: 768px) {
+  .coment-item {
+  }
 }
 @media screen and (min-width: 1140px) {
   .com {
@@ -1320,6 +1345,8 @@ img {
   font-size: 20px;
   color: #02897a;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1140px) {
   .joins {
@@ -1477,6 +1504,8 @@ img {
   text-align: center;
   margin: 0 auto;
   margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1140px) {
   .container-footer {

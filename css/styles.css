@@ -1551,3 +1551,110 @@ img {
 /* customers.html*/
 
 /* #region clients */
+.cont-clients {
+  padding: 50px 30px 77px 26px;
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #22343d;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 52px;
+}
+.clients-logo {
+  transition: transform 250ms ease-in-out;
+}
+.clients-picture {
+  width: 164px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1140px) {
+  .cont-clients {
+    padding: 100px 130px 117px 130px;
+  }
+  .clients-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .clients-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 64px;
+    padding: 16px 0px;
+    width: 850px;
+    height: 82px;
+  }
+  .clients-picture {
+    width: 213px;
+  }
+}
+/* #endregion clients */
+/* #region busines */
+
+.bus {
+  background: #f5f5f5;
+  padding: 24px 25px 61px;
+}
+.busines-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.busines-list {
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.busines-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 34px 28px;
+  margin-bottom: 32px;
+}
+.busines-item:last-child {
+  margin-bottom: 0;
+}
+.busines-icon {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.busines-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22343d;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.busines-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+}

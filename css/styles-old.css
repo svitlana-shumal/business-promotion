@@ -1063,7 +1063,7 @@ button {
   margin-bottom: 50px;
   margin-top: 24px;
 }
-.cont-busines .busines-list {
+.busines-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

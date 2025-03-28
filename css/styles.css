@@ -1658,3 +1658,239 @@ img {
   text-align: center;
   color: #22343d;
 }
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1140px) {
+  .bus {
+    padding-top: 24px;
+    padding-bottom: 68px;
+  }
+  .busines-title {
+    font-size: 34px;
+  }
+  .busines-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .busines-item {
+    margin-bottom: 0;
+  }
+}
+/* #endregion busines */
+/* #region apply */
+.apply {
+  padding-top: 96px;
+  padding-bottom: 70px;
+}
+.apply-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin: 0 auto;
+  margin-bottom: 79px;
+}
+.apply-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.apply-photo {
+  display: flex; /* Використовуємо Flexbox */
+  justify-content: center; /* Центрування по горизонталі */
+  align-items: center; /* Центрування по вертикалі */
+}
+.apply-cont {
+  display: block;
+  max-width: 355px;
+  margin-top: 80px;
+}
+.apply-item-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.apply-item-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.apply-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.apply-item-revers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 74px;
+}
+.apply-cont-revers {
+  display: block;
+  max-width: 355px;
+  margin-top: 80px;
+}
+
+.apply-item-text-revers {
+  font-weight: 500;
+  font-size: 20px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.apply-item-title-revers {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.apply-item-descr-revers {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.apply-photo-revers {
+  margin-top: 69px;
+}
+.btn-apply {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1140px) {
+  .apply {
+    padding-top: 101px;
+    padding-bottom: 133px;
+  }
+  .apply-title {
+    font-size: 34px;
+    margin-bottom: 73px;
+  }
+  .apply-item {
+    margin-bottom: 100px;
+  }
+  .apply-cont {
+    display: block;
+    max-width: 438px;
+    margin: 35px 0 34px 89px;
+  }
+  .apply-item-revers {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 100px;
+  }
+  .apply-cont-revers {
+    display: block;
+    order: 1;
+    max-width: 445px;
+    margin: 35px 76px 35px 0;
+  }
+  .apply-photo-revers {
+    order: 2;
+    margin-top: 0;
+  }
+  .apply-item:last-child {
+    margin-bottom: 77px;
+  }
+  .btn-apply {
+    display: block;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background: #02897a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+  }
+}
+/* #endregion apply */
+/* #region enterprice*/
+.enterprise {
+  padding-top: 30px;
+  padding-bottom: 83px;
+
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.enter-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  width: 351px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+.enter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.enter-item {
+  display: block;
+  text-align: center;
+  margin-bottom: 66px;
+}
+.enter-item-photo {
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.enter-item-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.enter-text {
+  width: 275px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #22343d;
+}
+.enter-text-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 12px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1140px) {
+  .enterprise {
+    padding-top: 17px;
+    padding-bottom: 82px;
+  }
+  .enter-title {
+    width: 537px;
+    margin-bottom: 93px;
+  }
+  .enter-list {
+    gap: 227px;
+  }
+  .enter-item {
+    margin-bottom: 63px;
+  }
+  .enter-item-photo {
+    margin-bottom: 27px;
+  }
+}
+/* #endregion enterprice */
+
+/* pricises.html */
+
+/* #region pricing */

@@ -1528,7 +1528,7 @@ details[open] .frequ-list::after {
 /* #region great business */
 .great {
 }
-.great-business.container {
+.great-business {
   display: flex;
   padding-top: 77px;
 }

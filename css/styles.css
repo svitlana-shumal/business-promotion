@@ -2538,7 +2538,7 @@ details[open] .frequ-list::after {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.06667;
+  line-height: 1.1;
   letter-spacing: 0.01em;
   color: #22343d;
   display: flex;
@@ -2579,10 +2579,36 @@ details[open] .frequ-list::after {
     padding-right: 120px;
     padding-left: 118px;
     padding-bottom: 50px;
-    margin-bottom: 100px;
   }
-  .contactus-subtitle {
-    font-size: 34px;
+  .cont-icon-web {
+    margin-top: 55px;
+    margin-bottom: 56px;
+  }
+  .cont-map {
+    margin-bottom: 50px;
+  }
+  .cont-contact {
+    width: 868px;
+    border: 1px solid #ddd;
+    padding: 52px 50px;
+    border-radius: 20px;
+  }
+  .cont-contact-title {
+    margin-bottom: 46px;
+  }
+  .form-cont-name {
+    width: 768px;
+    height: 54px;
+    margin-bottom: 45px;
+  }
+  .form-cont-mail {
+    width: 768px;
+    height: 54px;
+    margin-bottom: 45px;
+  }
+  .form-textar {
+    width: 768px;
+    height: 193px;
   }
 }
 /* #endregion contact us */

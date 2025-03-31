@@ -184,8 +184,16 @@
             <div class="container efects">
                 <h4 class="efects-title">Product is being used with great effects alongside:</h4>
                 <div class="cont-efect">
-                    <img class="efects-img" src="./images/pricing/amico.png" alt="amico" width="528" height="392">
-                    <img class="efects-img" src="./images/pricing/amico.png" alt="amico" width="528" height="392">
+                    <picture>
+                        <source srcset="./images/pricing/amico@1x.png 1x, ./images/pricing/amico@2x.png 2x"
+                            media="(max-width: 768px)">
+                        <img class="amico-img" src="./images/pricing/amico@1x.png" alt="amico" width="352" height="288">
+                    </picture>
+                    <picture>
+                        <source srcset="./images/pricing-desktop/amico@1x.png 1x, ./images/pricing-desktop/amico@2x.png"
+                            media="(min-width: 768px)">
+                        <img class="efects-img" src="./images/pricing/amico.png" alt="amico" width="528" height="392">
+                    </picture>
                     <ul class="efects-list">
                         <li class="efects-item">
                             <div class="cont-efects-item-svg">
@@ -243,11 +251,7 @@
                                 <use href="./images/icons.svg#icon-minus"></use>
                             </svg>What are my payment option?
                         </summary>
-                        <p class="frequently-item-text">After creating your account you will have an oppurtunity to
-                            create your first project that will
-                            be associated withthe collaborators e-mail. An invitation will be sent automatically.
-                            Then,
-                            invited user will have to confirm his account by e-mail and finish userd onboarding.</p>
+                        <p class="frequently-item-text">There are two main types of payment: cash and non-cash.
                     </details>
                     <details>
                         <summary class="frequ-list">
@@ -273,11 +277,7 @@
                                 <use href="./images/icons.svg#icon-minus"></use>
                             </svg>Can I upgrade my plan?
                         </summary>
-                        <p class="frequently-item-text">After creating your account you will have an oppurtunity to
-                            create your first project that will
-                            be associated withthe collaborators e-mail. An invitation will be sent automatically.
-                            Then,
-                            invited user will have to confirm his account by e-mail and finish userd onboarding.</p>
+                        <p class="frequently-item-text">Yes
                     </details>
                     <details>
                         <summary class="frequ-list">
@@ -288,11 +288,7 @@
                                 <use href="./images/icons.svg#icon-minus"></use>
                             </svg>Can I cancel my plan at anytime?
                         </summary>
-                        <p class="frequently-item-text">After creating your account you will have an oppurtunity to
-                            create your first project that will
-                            be associated withthe collaborators e-mail. An invitation will be sent automatically.
-                            Then,
-                            invited user will have to confirm his account by e-mail and finish userd onboarding.</p>
+                        <p class="frequently-item-text">Yes
                     </details>
                 </div>
             </div>
